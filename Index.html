@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RU St Léonard - UCC Limete</title>
+    <style>
+        :root {
+            --primary: #c0392b;
+            --secondary: #f39c12;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: #333;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 1.8rem; }
+        header p { margin: 5px 0 0; font-size: 0.9rem; opacity: 0.9; }
+        .container {
+            max-width: 600px;
+            margin: 15px auto;
+            padding: 0 15px;
+        }
+        .section-title {
+            border-bottom: 2px solid var(--secondary);
+            color: var(--dark);
+            padding-bottom: 5px;
+            margin-top: 25px;
+            font-size: 1.3rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-info h3 { margin: 0 0 5px 0; font-size: 1rem; }
+        .card-info span { color: var(--primary); font-weight: bold; font-size: 0.95rem; }
+        .btn-order {
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RU St Léonard</h1>
+    <p>Restaurant Universitaire de l'UCC Limete</p>
+</header>
+
+<div class="container">
+    <h2 class="section-title">🍛 Plats du Buffet</h2>
+    
+    <div class="card">
+        <div class="card-info">
+            <h3>Ngulu / Capitaine</h3>
+            <span>15 000 FC</span>
+        </div>
+        <a href="https://wa.me/243971302415?text=Bonjour,%20je%20souhaite%20commander%20un%20plat%20au%20RU%20St%20L%C3%A9onard" class="btn-order">Commander</a>
+    </div>
+
+    <div class="card">
+        <div class="card-info">
+            <h3>Boulette de viande</h3>
+            <span>10 000 FC</span>
+        </div>
+        <a href="https://wa.me/243971302415?text=Bonjour,%20je%20souhaite%20commander%20une%20boulette" class="btn-order">Commander</a>
+    </div>
+
+    <div class="card">
+        <div class="card-info">
+            <h3>Cuisse de poulet</h3>
+            <span>6 000 FC</span>
+        </div>
+        <a href="https://wa.me/243971302415?text=Bonjour,%20je%20souhaite%20commander%20du%20poulet" class="btn-order">Commander</a>
+    </div>
+
+    <h2 class="section-title">🍟 Accompagnements</h2>
+    
+    <div class="card">
+        <div class="card-info">
+            <h3>Frites / Bananes / Kwanga</h3>
+            <span>3 000 FC</span>
+        </div>
+        <a href="https://wa.me/243971302415?text=Bonjour,%20je%20souhaite%20commander%20un%20accompagnement" class="btn-order">Commander</a>
+    </div>
+
+    <h2 class="section-title">🥤 Boissons</h2>
+    
+    <div class="card">
+        <div class="card-info">
+            <h3>Sucrés (Coca, Fanta, Sprite)</h3>
+            <span>2 500 FC</span>
+        </div>
+        <a href="https://wa.me/243971302415?text=Bonjour,%20je%20souhaite%20commander%20une%20boisson" class="btn-order">Commander</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 RU St Léonard - UCC Limete | Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
